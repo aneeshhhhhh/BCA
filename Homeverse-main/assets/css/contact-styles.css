@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F8EDED; /* Updated background color */
+  color: #003153; /* Updated font color */
+}
+
+header {
+  background-color: #003153; /* Updated header color */
+  color: white;
+  padding: 2px;
+  text-align: center;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #173B45; /* Updated font color */
+}
+
+h2 {
+  color: #173B45; /* Updated font color */
+  border-bottom: 2px solid #173B45; /* Updated border color */
+  padding-bottom: 10px;
+}
+
+.project-status, .financial-overview, .communication-center, .customization-options, .support-resources {
+  margin-bottom: 30px;
+}
+
+
+.milestones {
+  list-style-type: none;
+  padding: 0;
+}
+
+.milestones li {
+  margin: 5px 0;
+  color: #FF8225; /* Updated symbol color */
+}
+
+.budget, .payments, .messages, .notifications {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.developer button {
+  background-color: #B43F3F; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.developer button:hover {
+  background-color: #a13737; 
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #003153; /* Updated footer background color */
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
